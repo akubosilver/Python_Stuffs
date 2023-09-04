@@ -3,6 +3,7 @@
 This is a simple tic-tac-toe game implimented in python
 
 """
+import os
 #global variables
 my_list = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
 general_arr = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[0,4,8],[1,4,7],[2,5,8],[2,4,6]]
@@ -11,6 +12,13 @@ player2_arr = []
 total_arr = []
 #print game_board
 def print_board(my_list):
+    # For Windows
+    if os.name == 'nt':
+        _ = os.system('cls')
+    # For macOS and Linux
+    else:
+        _ = os.system('clear')
+
     print(f'-----------------------------------------')
     print(f'      {my_list[0]}     |      {my_list[1]}        |     {my_list[2]}')
     print(f'            |               |              ')
@@ -61,8 +69,6 @@ def players_position(print_board,player,moves):
     total_arr.append(position)
     
     my_list[position] = player
-    if moves:
-        print('\n' * 100)
     print_board(my_list)
     update_game(moves, position)
 #update game with players position
