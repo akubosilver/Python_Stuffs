@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 """
 This is a simple tic-tac-toe game implimented in python
 
