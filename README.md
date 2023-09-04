@@ -3,9 +3,10 @@
 * p1-p6 : Contains snippets of some basic python codes
 
 * Milestone1 : Contains Tic-Tac-Toe game implimented in Python
- > Usage: git clone https://github.com/akubosilver/Python_Stuffs.git
- >        chmod +x milestone.py
- >        ./milstone ---> to start game
+
+        * Usage: git clone https://github.com/akubosilver/Python_Stuffs.git
+        * chmod +x milestone.py
+        * ./milestone.py
 
 ### Enivironment
 * Language: Bash scripts, C-lang, Python, Js, SQL
