@@ -8,6 +8,16 @@
         * chmod +x milestone.py
         * ./milestone.py
 
+* try_except: simple try,except and finally in python
+
+* text_cap/cap: simple unittest implimentation to check code functionality
+
+* oop: Introduction to Object Oriented Programming
+
+* Warm_up: Implimentation of the game "War" in python using OOP
+
+* Milestone2: coming soon
+
 ### Enivironment
 * Language: Bash scripts, C-lang, Python, Js, SQL
 * OS: Ubuntu 20.04
