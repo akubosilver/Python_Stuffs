@@ -16,7 +16,7 @@
 
 * Warm_up: Implimentation of the game "War" in python using OOP
 
-* Milestone2: coming soon
+* Milestone2: BlackJack Casino game implimented in Python using OOP
 
 ### Enivironment
 * Language: Bash scripts, C-lang, Python, Js, SQL
